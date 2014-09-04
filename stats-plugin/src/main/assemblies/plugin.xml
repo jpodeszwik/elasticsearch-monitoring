@@ -15,4 +15,10 @@
             </excludes>
         </dependencySet>
     </dependencySets>
+    <fileSets>
+        <fileSet>
+            <directory>${basedir}/_site/kibana/</directory>   
+            <outputDirectory>/_site</outputDirectory>
+        </fileSet>
+    </fileSets>
 </assembly>
